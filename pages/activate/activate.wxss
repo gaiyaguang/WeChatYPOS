@@ -1,0 +1,60 @@
+/* activate.wxss */
+
+.activate_box {
+  margin-top: 30rpx;
+  width: 100%;
+  padding: 15rpx;
+  background-color: #fff;
+  border-top: #ccc solid 1rpx;
+  border-bottom: #ccc solid 1rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.activate_box text {
+  margin-left: 15rpx;
+  color: #000;
+  font-size: 35rpx;
+}
+
+.activate_box input {
+  height: 100%;
+  line-height: 100%;
+  width: 70%;
+  margin-left: 5rpx;
+  font-size: 30rpx;
+  color:#000;
+}
+
+.placehoderInput {
+  height: 100%;
+  line-height: 100%;
+  width: 70%;
+  margin-left: 5rpx;
+  font-size: 30rpx;
+  color: #ccc;
+}
+
+.prompt {
+  align-self: flex-start;
+  color: #8d8d8d;
+  font-size: 25rpx;
+  padding: 15rpx;
+}
+
+.submitBn {
+  width: 90%;
+  margin: 50rpx;
+  background-color: #ff613a;
+  color: white;
+  border: none;
+}
+
+.submitBn_hover {
+  width: 90%;
+  margin: 50rpx;
+  background-color: #e79429;
+  color: white;
+  border: none;
+}

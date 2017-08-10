@@ -1,0 +1,9 @@
+<!--activate.wxml-->
+<view class="container">
+  <view class="activate_box">
+    <text>激活码</text>
+    <input type="number" placeholder="请输入激活码" placeholder-class="placeholderInput"/>
+  </view>
+  <text class="prompt">首次登录需验证商户并激活</text>
+  <button class="submitBn" hover-class="submitBn_hover" bindtap="active">提交</button>
+</view>
